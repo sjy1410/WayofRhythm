@@ -1,5 +1,4 @@
 #main-background {
-  height: 100%;
   width: 100%;
   position: absolute;
   top: 0;
@@ -23,7 +22,7 @@
 }
 
 #p-webname {
-  position: fixed;
+  position: absolute;
   left: 320px;
   animation: slide 1s ease-out 0s forwards;
   margin: 0;

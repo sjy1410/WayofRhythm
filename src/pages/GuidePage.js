@@ -1,5 +1,5 @@
 import Header from "../components/Header";
-import "../styles/mainpage.css";
+import "../styles/mainPage.css";
 
 export default function GuidePage() {
   return (
