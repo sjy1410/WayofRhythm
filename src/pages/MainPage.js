@@ -7,11 +7,15 @@ export default function MainPage() {
       <img src=".\images\mainBackground.png" alt="배경" id="main-background" />
       <Header />
       <div className="div-webname">
-        <span id="red">Way </span>
-        <span>of </span>
-        <span id="blue">Rhythm</span>
+        <p id="p-webname">
+          <span id="red">Way </span>
+          <span>of </span>
+          <span id="blue">Rhythm</span>
+        </p>
       </div>
-      <div className="div-webexplain">Adofai 맵 추천 & 가이드</div>
+      <div className="div-webexplain">
+        <p id="p-webexplain">Adofai 맵 추천 & 가이드</p>
+      </div>
     </div>
   );
 }
