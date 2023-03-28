@@ -1,0 +1,36 @@
+#main-background {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.div-webname {
+  width: 100%;
+  font-family: "Fredoka";
+  font-weight: 600;
+  font-size: 140px;
+  color: white;
+  line-height: 140px;
+  text-align: center;
+}
+
+#red {
+  color: #ed3233;
+}
+
+#blue {
+  color: #3e85f9;
+}
+
+.div-webexplain {
+  width: 100%;
+  font-family: "NanumGothic";
+  font-weight: 600;
+  font-size: 60px;
+  color: white;
+  line-height: 150px;
+  text-align: center;
+}
