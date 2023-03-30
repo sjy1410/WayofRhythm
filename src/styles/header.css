@@ -47,10 +47,14 @@ a {
   color: white;
 }
 
-a:hover {
-  color: greenyellow;
+#name:hover {
+  color: #ffd700;
 }
 
-#name:hover {
-  color: white;
+#map:hover {
+  color: #f54f51;
+}
+
+#guide:hover {
+  color: #4d93fc;
 }
