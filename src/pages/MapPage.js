@@ -6,7 +6,6 @@ import "../styles/mapPage.css";
 import data from "../db/data.json";
 
 export default function MapPage() {
-  console.log(data);
   return (
     <div className="mappage">
       <img src=".\images\mapBackground.png" alt="배경" id="map-background" />
@@ -17,7 +16,7 @@ export default function MapPage() {
       <ul className="user-level">
         {data.levels.map((level) => (
           <li key={level.id}>
-            <Link to={`/level/${level.id}`}>{level.player}</Link>
+            <Link to="/level">{level.player}</Link>
             <div>{level.explain}</div>
           </li>
         ))}
