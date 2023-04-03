@@ -4,16 +4,16 @@ import { useParams } from "react-router";
 import "../styles/mapListPage.css";
 
 export default function MapListPage() {
-  const { mid } = useParams();
-  const mapList = data.maps.filter((map) => map.mid === Number(mid));
-  const levelList = data.levels.filter((level) => level.mid === Number(mid));
+  const { id } = useParams();
+  const mapList = data.maps.filter((map) => map.id === Number(id));
+  const levelList = data.levels.filter((level) => level.id === Number(id));
   return (
     <div>
       <img src="\images\mapBackground.png" alt="배경" id="map-background" />
       <ul className="show-level">
         {levelList.map((level) => (
           <li key={level.id}>
-            <div>맵 레벨: {level.level}</div>
+            <div>Level: {level.level}</div>
           </li>
         ))}
       </ul>

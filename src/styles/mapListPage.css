@@ -36,4 +36,11 @@ h1 {
   font-weight: 400;
   font-size: 50px;
   margin-left: -30px;
+  margin-top: -10px;
+}
+
+.show-level li {
+  font-size: 60px;
+  font-weight: 700;
+  font-family: "Gafata";
 }

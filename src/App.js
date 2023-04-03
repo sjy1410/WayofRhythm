@@ -15,7 +15,7 @@ export default function App() {
       <Routes>
         <Route path="/" element={<MainPage />} />
         <Route path="/map" element={<MapPage />} />
-        <Route path="/map/mid/:mid" element={<MapListPage />} />
+        <Route path="/map/id/:id" element={<MapListPage />} />
         <Route path="/guide" element={<GuidePage />} />
       </Routes>
     </div>
