@@ -33,8 +33,18 @@
   ],
 
   "maps": [
-    { "id": 1, "level": 13, "name": "Plum - R" },
-    { "id": 2, "level": 12, "name": "ああああ - ほしのおとしもの" },
-    { "id": 3, "level": 14, "name": "E0ri4 - Rainy Gate (Simple)" }
+    { "id": 1, "level": 13, "name": "Plum - R", "isDone": false },
+    {
+      "id": 2,
+      "level": 12,
+      "name": "ああああ - ほしのおとしもの",
+      "isDone": false
+    },
+    {
+      "id": 3,
+      "level": 14,
+      "name": "E0ri4 - Rainy Gate (Simple)",
+      "isDone": false
+    }
   ]
 }

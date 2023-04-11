@@ -6,15 +6,29 @@
   z-index: -1;
 }
 
+.show-level {
+  text-align: center;
+  font-family: "NanumGothic";
+  padding-top: 80px;
+  padding-bottom: 40px;
+  color: white;
+  list-style: none;
+  font-size: 60px;
+  font-weight: 700;
+  font-family: "Gafata";
+  margin: 0;
+}
+
 table {
   border-collapse: collapse;
   width: 50%;
   margin: 0 auto;
 }
+
 table td {
   width: 25%;
   height: 70px;
-  border: 1px solid #ccc;
+  border: 3px solid #fff;
   color: white;
   text-align: center;
   font-size: 26px;
@@ -24,23 +38,61 @@ table td:first-child {
   width: 10%;
 }
 
-h1 {
-  text-align: center;
-  margin-top: 20px;
-  padding-bottom: 10px;
+button {
+  background-color: red;
+  color: white;
+  width: 90px;
+  height: 50px;
+  border: none;
+  border-radius: 10px;
+  font-size: 25px;
+  line-height: 25px;
 }
 
-.show-level {
-  text-align: center;
-  font-family: "NanumGothic";
-  font-weight: 400;
-  font-size: 50px;
-  margin-left: -30px;
-  margin-top: -10px;
+.off td {
+  background: #fff;
+  color: black;
 }
 
-.show-level li {
-  font-size: 60px;
-  font-weight: 700;
-  font-family: "Gafata";
+input#check-map {
+  display: none;
+}
+
+/* label:before에 체크하기 전 상태 CSS */
+input#check-map + label:before {
+  content: "";
+  display: inline-block;
+  width: 17px;
+  height: 17px;
+  border: 2px solid #f47c7c;
+  border-radius: 4px;
+}
+
+/* label:before에 체크 된 상태 CSS */
+input#check-map:checked + label:before {
+  background-color: #f47c7c;
+  border-color: #f47c7c;
+  background: url("/public/images/checkbox.png");
+}
+
+.link-map {
+  padding-top: 50px;
+  text-align: center;
+  font-family: "Nanum Gothic";
+  font-size: 30px;
+}
+
+.link-map a {
+  padding: 10px;
+  border-radius: 7px;
+}
+
+.link-map a:hover {
+  background: none;
+  font-size: 0;
+}
+
+.link-map a:hover::before {
+  content: "다음단계로";
+  font-size: 30px;
 }
