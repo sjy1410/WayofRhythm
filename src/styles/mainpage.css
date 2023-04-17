@@ -1,32 +1,26 @@
 #main-background {
   width: 100%;
+  height: 100%;
   position: absolute;
   top: 0;
   left: 0;
   z-index: -1;
 }
 
-#p-webname {
+.p-mainpage {
+  text-align: center;
+}
+
+.p-mainpage p {
   margin: 0;
+}
+
+#p-webname {
+  padding-top: 120px;
   font-family: "Fredoka";
   font-weight: 600;
   font-size: 130px;
   color: white;
-
-  position: absolute;
-  top: 100px;
-  animation: slide 1s ease-out 0s forwards;
-}
-
-@keyframes slide {
-  from {
-    left: -100px;
-    opacity: 0;
-  }
-  to {
-    left: 320px;
-    opacity: 1;
-  }
 }
 
 #red {
@@ -40,24 +34,7 @@
 #p-webexplain {
   font-family: "NanumGothic";
   font-weight: 600;
-  font-size: 60px;
+  font-size: 50px;
   color: white;
-
-  margin: 0 auto;
-  position: absolute;
-  top: 280px;
-  left: 450px;
-  opacity: 0;
-  animation: slide2 1s ease-in-out 0.8s forwards;
-}
-
-@keyframes slide2 {
-  from {
-    top: 350px;
-    opacity: 0;
-  }
-  to {
-    top: 280px;
-    opacity: 1;
-  }
+  padding-top: 30px;
 }

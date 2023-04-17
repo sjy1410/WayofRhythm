@@ -1,11 +1,13 @@
 import "../styles/header.css";
 import { Link } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 export default function Header() {
   return (
     <>
-      <header>
-        <div className="div-logo">
+      <nav class="navbar">
+        <div className="navbar-logo">
           <img src="\images\logo.png" alt="로고"></img>
           <Link to="/" id="name">
             Way of Rhythm
@@ -23,7 +25,12 @@ export default function Header() {
             </Link>
           </li>
         </ul>
-      </header>
+        <ul className="navbar-icon">
+          <li>
+            <FontAwesomeIcon icon={faGithub} color="white" size="2xl" />
+          </li>
+        </ul>
+      </nav>
     </>
   );
 }

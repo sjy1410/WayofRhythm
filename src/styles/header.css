@@ -2,52 +2,55 @@ body {
   margin: 0;
 }
 
-header {
+.navbar {
   position: fixed;
-  backdrop-filter: blur(10px);
+  top: 0;
 
   width: 100%;
+
   font-family: "Nanum Gothic";
+
   display: flex;
   justify-content: space-between;
   align-items: center;
+
   background: #192536;
-  padding: 5px;
-
-  z-index: 1;
+  padding: 5px 10px;
 }
 
-.div-logo {
-  display: flex;
-  align-items: center;
-  padding-left: 30px;
-}
-
-.div-logo a {
-  font-family: "Gafata";
-  padding-left: 15px;
-  font-size: 30px;
-}
-
-.div-logo img {
-  width: 50px;
-  height: 50px;
-}
-
-a {
+.navbar a {
   color: white;
   text-decoration: none;
+}
+
+.navbar-logo {
+  display: flex;
+  align-items: center;
+  padding: 5px 10px;
+}
+
+.navbar-logo a {
+  padding-left: 10px;
+  font-family: "Gafata";
+  font-size: 20px;
+}
+
+.navbar-logo img {
+  width: 50px;
+  height: 50px;
 }
 
 .navbar-menu {
   list-style: none;
   display: flex;
-  padding-right: 37%;
+  padding-left: 0px;
+  padding-right: 80px;
+  margin: 0;
 }
 
 .navbar-menu li {
   font-size: 25px;
-  padding-right: 80px;
+  padding: 5px 20px;
 }
 
 #name:hover {
@@ -60,4 +63,32 @@ a {
 
 #guide:hover {
   color: #4d93fc;
+}
+
+.navbar-icon {
+  list-style: none;
+  display: flex;
+  padding-left: 0px;
+}
+
+.navbar-icon li {
+  padding-left: 0;
+  padding: 5px 40px;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: start;
+  }
+  .navbar-menu {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .navbar-icon {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
 }
