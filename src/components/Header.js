@@ -2,8 +2,18 @@ import "../styles/header.css";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faBars } from "@fortawesome/free-solid-svg-icons";
 
 export default function Header() {
+  const toggleBtn = document.querySelector(".navbar-toggleBtn");
+  const menu = document.querySelector(".navbar-menu");
+  const icon = document.querySelector(".navbar-icon");
+
+  toggleBtn.addEventListener("click", () => {
+    menu.classList.toggle("active");
+    icon.classList.toggle("active");
+  });
+
   return (
     <>
       <nav class="navbar">
@@ -30,6 +40,9 @@ export default function Header() {
             <FontAwesomeIcon icon={faGithub} color="white" size="2xl" />
           </li>
         </ul>
+        <Link to="#" className="navbar-toggleBtn">
+          <FontAwesomeIcon icon={faBars} />
+        </Link>
       </nav>
     </>
   );

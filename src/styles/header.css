@@ -15,7 +15,7 @@ body {
   align-items: center;
 
   background: #192536;
-  padding: 5px 10px;
+  padding: 3px 10px;
 }
 
 .navbar a {
@@ -26,7 +26,7 @@ body {
 .navbar-logo {
   display: flex;
   align-items: center;
-  padding: 5px 10px;
+  padding: 3px 10px;
 }
 
 .navbar-logo a {
@@ -50,7 +50,7 @@ body {
 
 .navbar-menu li {
   font-size: 25px;
-  padding: 5px 20px;
+  padding: 3px 20px;
 }
 
 #name:hover {
@@ -73,7 +73,15 @@ body {
 
 .navbar-icon li {
   padding-left: 0;
-  padding: 5px 40px;
+  padding: 3px 40px;
+}
+
+.navbar-toggleBtn {
+  position: absolute;
+  top: 18px;
+  right: 32px;
+  font-size: 24px;
+  display: none;
 }
 
 @media screen and (max-width: 768px) {
@@ -82,13 +90,22 @@ body {
     align-items: start;
   }
   .navbar-menu {
+    display: none;
     flex-direction: column;
     align-items: center;
     width: 100%;
   }
   .navbar-icon {
+    display: none;
     flex-direction: column;
     align-items: center;
     width: 100%;
+  }
+  .navbar-toggleBtn {
+    display: block;
+  }
+  .navbar-menu.active,
+  .navbar-icon.active {
+    display: flex;
   }
 }
