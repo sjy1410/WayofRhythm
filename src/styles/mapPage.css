@@ -1,40 +1,10 @@
 #map-background {
   width: 100%;
-  height: 750px;
+  height: 800px;
   position: absolute;
   top: 0;
   left: 0;
   z-index: -1;
-}
-
-.home-btn {
-  position: fixed;
-  padding-top: 30px;
-  padding-left: 40px;
-}
-
-#p-logo {
-  position: absolute;
-  font-family: "Nanum Gothic";
-  font-size: 17px;
-  opacity: 0;
-  display: none;
-}
-
-.home-btn img {
-  width: 80px;
-  height: 80px;
-  border: 3px solid white;
-  border-radius: 10px;
-}
-
-.home-btn img:hover {
-  transform: scale(1.2);
-}
-
-.home-btn:hover #p-logo {
-  display: block;
-  opacity: 1;
 }
 
 .div-userLevel-explain {
@@ -42,7 +12,7 @@
   font-family: "NanumGothic";
   font-size: 50px;
   font-weight: 600;
-  padding-top: 70px;
+  padding-top: 140px;
   margin-bottom: 70px;
   color: #fff;
   text-shadow: 0 0 7px #fff, 0 0 42px #0fa;

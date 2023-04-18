@@ -15,7 +15,8 @@ body {
   align-items: center;
 
   background: #192536;
-  padding: 3px 10px;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
 .navbar a {
@@ -26,7 +27,7 @@ body {
 .navbar-logo {
   display: flex;
   align-items: center;
-  padding: 3px 10px;
+  padding: 5px 10px;
 }
 
 .navbar-logo a {
@@ -50,7 +51,7 @@ body {
 
 .navbar-menu li {
   font-size: 25px;
-  padding: 3px 20px;
+  padding: 5px 20px;
 }
 
 #name:hover {
@@ -71,9 +72,14 @@ body {
   padding-left: 0px;
 }
 
+#btn-github {
+  background: none;
+  border: none;
+}
+
 .navbar-icon li {
   padding-left: 0;
-  padding: 3px 40px;
+  padding: 5px 40px;
 }
 
 .navbar-toggleBtn {

@@ -5,6 +5,8 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 
 export default function Header() {
+  const url = "https://github.com/sjy1410/WayofRythm";
+
   const toggleBtn = document.querySelector(".navbar-toggleBtn");
   const menu = document.querySelector(".navbar-menu");
   const icon = document.querySelector(".navbar-icon");
@@ -13,7 +15,6 @@ export default function Header() {
     menu.classList.toggle("active");
     icon.classList.toggle("active");
   });
-
   return (
     <>
       <nav class="navbar">
@@ -37,7 +38,9 @@ export default function Header() {
         </ul>
         <ul className="navbar-icon">
           <li>
-            <FontAwesomeIcon icon={faGithub} color="white" size="2xl" />
+            <button id="btn-github" onClick={() => window.open(url)}>
+              <FontAwesomeIcon icon={faGithub} color="white" size="2xl" />
+            </button>
           </li>
         </ul>
         <Link to="#" className="navbar-toggleBtn">

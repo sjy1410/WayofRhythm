@@ -28,7 +28,7 @@ export default function MapListPage() {
         </tbody>
       </table>
       <div className="link-map">
-        <Link to="/map">다 깼다면?</Link>
+        <Link to="/map">다 깼다면? </Link>
       </div>
     </>
   );

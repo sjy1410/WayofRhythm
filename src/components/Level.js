@@ -17,7 +17,7 @@ export default function Level({ map }) {
       <td>{map.level} </td>
       <td>{map.name}</td>
       <td>
-        <button>▶</button>
+        <button className="btn-youtube">▶</button>
       </td>
     </tr>
   );
