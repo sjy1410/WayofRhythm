@@ -1,4 +1,6 @@
 import { useState } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faSteam } from "@fortawesome/free-brands-svg-icons";
 
 export default function Level({ map }) {
   const [isDone, setIsDone] = useState(map.isDone);
@@ -9,15 +11,21 @@ export default function Level({ map }) {
         <input
           type="checkbox"
           id="check-map"
-          checked={isDone}
           onChange={() => setIsDone(!isDone)}
         />
-        <label htmlFor="check-map"></label>
       </td>
       <td>{map.level} </td>
+      <td>{map.artist} </td>
       <td>{map.name}</td>
       <td>
-        <button className="btn-youtube">▶</button>
+        <button id="btn-workshop" onClick={() => window.open(map.workshop)}>
+          <FontAwesomeIcon icon={faSteam} />
+        </button>
+      </td>
+      <td>
+        <button id="btn-youtube" onClick={() => window.open(map.youtube)}>
+          ▶
+        </button>
       </td>
     </tr>
   );

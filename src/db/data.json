@@ -2,21 +2,21 @@
   "levels": [
     {
       "id": 1,
-      "level": "1~7",
+      "level": "1~6",
       "player": "뉴비",
       "explain": "공식맵을 다 깨지못한 유저들에게 추천드리는 맵들입니다."
     },
     {
       "id": 2,
-      "level": "8~11",
+      "level": "7~12",
       "player": "초보",
       "explain": "1~12스테이지와 보너스 스테이지를 다 깬 사람들에게 추천드리는 맵들입니다."
     },
     {
       "id": 3,
-      "level": "12~15",
+      "level": "13~16",
       "player": "중수",
-      "explain": "왕관섬 스테이지들을 노세이브 엄격판정으로 깬 유저들에게 추천드리는 맵들입니다. 이 시점부터 난이도가 급격히 올라가기 시작합니다."
+      "explain": "왕관섬 스테이지들을 노세이브 엄격판정으로 깬 유저들에게 추천드리는 맵들입니다. 이 시점부터 난이도가 급격하게 오르기 시작합니다."
     },
     {
       "id": 4,
@@ -33,17 +33,229 @@
   ],
 
   "maps": [
-    { "id": 3, "level": 13, "name": "Plum - R", "isDone": false },
+    {
+      "id": 1,
+      "level": 2,
+      "artist": "ARforest",
+      "name": "The Last Page",
+      "workshop": "https://steamcommunity.com/sharedfiles/filedetails/?id=2217905221&searchtext=The+last+page",
+      "youtube": "https://www.youtube.com/watch?v=Vuc7X6MPF3I&ab_channel=Lemon1415",
+      "isDone": false
+    },
+    {
+      "id": 1,
+      "level": 3,
+      "artist": "Riya",
+      "name": "Have A Good Night",
+      "workshop": "https://steamcommunity.com/sharedfiles/filedetails/?id=2361441405&searchtext=Have+a+good+night",
+      "youtube": "https://www.youtube.com/watch?v=b0QghCacy5A&ab_channel=%EB%8B%A4%EB%B0%8D",
+      "isDone": false
+    },
+    {
+      "id": 1,
+      "level": 4,
+      "artist": "CastleWater",
+      "name": "Rain With Snow",
+      "workshop": "https://steamcommunity.com/sharedfiles/filedetails/?id=2160821543&searchtext=rain+with+snow",
+      "youtube": "https://www.youtube.com/watch?v=yYMmOX4ruK0&ab_channel=Strode",
+      "isDone": false
+    },
+    {
+      "id": 1,
+      "level": 4,
+      "artist": "MUWOL",
+      "name": "아주작은 행복들에 대하여",
+      "workshop": "https://steamcommunity.com/sharedfiles/filedetails/?id=2275263021",
+      "youtube": "https://www.youtube.com/watch?v=3pfg2fpf9PE&ab_channel=%ED%86%A0%EB%81%BC%EB%A1%9C%EB%B4%87",
+      "isDone": false
+    },
+    {
+      "id": 1,
+      "level": 5,
+      "artist": "Plum",
+      "name": "Diamond in the Sky",
+      "workshop": "https://steamcommunity.com/sharedfiles/filedetails/?id=2124126125",
+      "youtube": "https://www.youtube.com/watch?v=V_b1vBe-Hcs&ab_channel=Star4th",
+      "isDone": false
+    },
+    {
+      "id": 1,
+      "level": 5,
+      "artist": "Plum",
+      "name": "정령의 무도",
+      "workshop": "https://steamcommunity.com/sharedfiles/filedetails/?id=2140165811&searchtext=정령의+무도",
+      "youtube": "https://www.youtube.com/watch?v=mIfivQSgNFo&t=0s&ab_channel=PERIOT",
+      "isDone": false
+    },
+    {
+      "id": 1,
+      "level": 6,
+      "artist": "Riya",
+      "name": "Intruder",
+      "workshop": "https://steamcommunity.com/sharedfiles/filedetails/?id=2206396199&searchtext=Intruder",
+      "youtube": "https://www.youtube.com/watch?v=UWaowwAVDxA&t=0s&ab_channel=Ssimille",
+      "isDone": false
+    },
+    {
+      "id": 2,
+      "level": 7,
+      "artist": "Nate Harrell",
+      "name": "Jazz Candy VIP",
+      "workshop": "https://steamcommunity.com/sharedfiles/filedetails/?id=2124009821&searchtext=Jazz+candy",
+      "youtube": "https://www.youtube.com/watch?v=OXYYBKjnuH0&ab_channel=Rikri",
+      "isDone": false
+    },
+    {
+      "id": 2,
+      "level": 8,
+      "artist": "DOT96",
+      "name": "MAKE IT FUNKY NOW",
+      "workshop": "https://steamcommunity.com/sharedfiles/filedetails/?id=2125867763&searchtext=make+it+funkky+now",
+      "youtube": "https://www.youtube.com/watch?v=Q-B7N20AUIU&ab_channel=PizzaLovers007",
+      "isDone": false
+    },
+    {
+      "id": 2,
+      "level": 9,
+      "artist": "linear ring",
+      "name": "enchanted love",
+      "workshop": "https://steamcommunity.com/sharedfiles/filedetails/?id=2439575881&searchtext=enchanted+love",
+      "youtube": "https://www.youtube.com/watch?v=Q-B7N20AUIU&ab_channel=PizzaLovers007",
+      "isDone": false
+    },
+    {
+      "id": 2,
+      "level": 10,
+      "artist": "Zris",
+      "name": "Great Great",
+      "workshop": "https://steamcommunity.com/sharedfiles/filedetails/?id=2714828176&searchtext=great+great",
+      "youtube": "https://www.youtube.com/watch?v=TSGCnSEXldI&t=132s&ab_channel=PowerFactory",
+      "isDone": false
+    },
+    {
+      "id": 2,
+      "level": 11,
+      "artist": "Frums",
+      "name": "Great Fury of Heaven",
+      "workshop": "https://steamcommunity.com/sharedfiles/filedetails/?id=2274222420&searchtext=great+fury+of+",
+      "youtube": "https://www.youtube.com/watch?v=HOmDzt6d0Uc&ab_channel=%EB%8B%A4%EB%B0%8D",
+      "isDone": false
+    },
+    {
+      "id": 2,
+      "level": 11,
+      "artist": "Ras",
+      "name": "Stager",
+      "workshop": "https://www.youtube.com/watch?v=NWphejqWEqA&ab_channel=XiZnYng%5B%EC%8B%9C%EC%A6%88%EB%8B%9D%5D",
+      "youtube": "https://steamcommunity.com/sharedfiles/filedetails/?id=2281772272&searchtext=stager",
+      "isDone": false
+    },
     {
       "id": 2,
       "level": 12,
-      "name": "ああああ - ほしのおとしもの",
+      "artist": "ああああ",
+      "name": "ほしのおとしもの",
+      "workshop": "https://steamcommunity.com/sharedfiles/filedetails/?id=2171068496&searchtext=ほしのおとしもの",
+      "youtube": "https://www.youtube.com/watch?v=Cwq_kPPO-ZI&ab_channel=%EC%95%84%EB%B2%A8",
+      "isDone": false
+    },
+    {
+      "id": 2,
+      "level": 12,
+      "artist": "E.Allen",
+      "name": "The Celebrated Chop Waltz",
+      "workshop": "https://steamcommunity.com/sharedfiles/filedetails/?id=2259011395&searchtext=the+celebrate",
+      "youtube": "https://www.youtube.com/watch?v=iVAyuXu6EJs&t=0s&ab_channel=MisoguyI",
+      "isDone": false
+    },
+    {
+      "id": 3,
+      "level": 13,
+      "artist": "Plum",
+      "name": "R",
+      "workshop": "https://steamcommunity.com/sharedfiles/filedetails/?id=2301231290&searchtext=R",
+      "youtube": "https://www.youtube.com/watch?v=bEyh9Ws1ihQ&t=134s&ab_channel=%EC%95%84%EB%B2%A8",
+      "isDone": false
+    },
+    {
+      "id": 3,
+      "level": 13,
+      "artist": "Plum",
+      "name": "Wake Up, Piano!",
+      "workshop": "https://steamcommunity.com/sharedfiles/filedetails/?id=2128998212&searchtext=Wake+up+paino",
+      "youtube": "https://www.youtube.com/watch?v=V8GzuAV1Cc8&ab_channel=Strode",
+      "isDone": false
+    },
+    {
+      "id": 3,
+      "level": 13,
+      "artist": "ああああ",
+      "name": "ほんの小さな大冒険",
+      "workshop": "https://steamcommunity.com/sharedfiles/filedetails/?id=2237655694&searchtext=ああああ+-+ほんの小さな大冒険",
+      "youtube": "https://www.youtube.com/watch?v=9dDoOsQHQYc&ab_channel=%EB%B3%B4%EB%A6%AC",
       "isDone": false
     },
     {
       "id": 3,
       "level": 14,
-      "name": "E0ri4 - Rainy Gate (Simple)",
+      "artist": "E0ri4",
+      "name": "Rainy Gate (Simple)",
+      "workshop": "https://steamcommunity.com/sharedfiles/filedetails/?id=2125828502&searchtext=rainy+gate+simple",
+      "youtube": "https://www.youtube.com/watch?v=3beNHZVZb5o&ab_channel=NumbEr07",
+      "isDone": false
+    },
+    {
+      "id": 3,
+      "level": 14,
+      "artist": "W. A. Mozart",
+      "name": "Turkish March",
+      "workshop": "https://steamcommunity.com/sharedfiles/filedetails/?id=2277034955&searchtext=Turkish+March",
+      "youtube": "https://www.youtube.com/watch?v=YnX36m_d7_U&ab_channel=MisoguyI",
+      "isDone": false
+    },
+    {
+      "id": 3,
+      "level": 14,
+      "artist": "Plum",
+      "name": "R 8bit",
+      "workshop": "https://steamcommunity.com/sharedfiles/filedetails/?id=2397649836&searchtext=R+8bit",
+      "youtube": "https://www.youtube.com/watch?v=zvDiTUjjY1s&ab_channel=Nephrolepis%5B%EB%84%A4%ED%94%84%EB%A1%9C%5D",
+      "isDone": false
+    },
+    {
+      "id": 3,
+      "level": 14,
+      "artist": "Author wind",
+      "name": "After school",
+      "workshop": "https://steamcommunity.com/sharedfiles/filedetails/?id=2301240293&searchtext=after+school",
+      "youtube": "https://www.youtube.com/watch?v=o8EInwhzc4s&t=82s&ab_channel=pixelo3o",
+      "isDone": false
+    },
+    {
+      "id": 3,
+      "level": 15,
+      "artist": "Plum",
+      "name": "Mad Piano Party",
+      "workshop": "https://steamcommunity.com/sharedfiles/filedetails/?id=2124702244&searchtext=mad+piano+party",
+      "youtube": "https://www.youtube.com/watch?v=o8EInwhzc4s&t=82s&ab_channel=pixelo3o",
+      "isDone": false
+    },
+    {
+      "id": 3,
+      "level": 15,
+      "artist": "Plum",
+      "name": "Mad Piano Party II",
+      "workshop": "https://steamcommunity.com/sharedfiles/filedetails/?id=2124096282&searchtext=mad+piano+party+2",
+      "youtube": "https://www.youtube.com/watch?v=JW-jyFxj_Ek&ab_channel=%EB%8B%88%EC%B9%98%ED%8E%98Nichipe",
+      "isDone": false
+    },
+    {
+      "id": 3,
+      "level": 16,
+      "artist": "Plum",
+      "name": "Crossing Notes",
+      "workshop": "https://steamcommunity.com/sharedfiles/filedetails/?id=2633518591&searchtext=crossing+notes",
+      "youtube": "https://www.youtube.com/watch?v=zNl18Kvkd50&ab_channel=%EB%A6%AC%EC%9D%84%EC%9D%B4%EC%9D%91%EB%8B%88%EC%9D%80Ryan",
       "isDone": false
     }
   ]

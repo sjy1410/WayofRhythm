@@ -1,5 +1,6 @@
 #map-background {
   width: 100%;
+  height: 1200px;
   position: absolute;
   top: 0;
   left: 0;
@@ -9,7 +10,7 @@
 .show-level {
   text-align: center;
   font-family: "NanumGothic";
-  padding-top: 80px;
+  padding-top: 120px;
   padding-bottom: 40px;
   color: white;
   list-style: none;
@@ -38,15 +39,22 @@ table td:first-child {
   width: 10%;
 }
 
-.btn-youtube {
+#btn-workshop {
+  background-color: white;
+  font-size: 30px;
+  border-radius: 10px;
+  border: none;
+}
+
+#btn-youtube {
   background-color: red;
   color: white;
-  width: 90px;
-  height: 50px;
+  width: 80px;
+  height: 45px;
   border: none;
   border-radius: 10px;
-  font-size: 25px;
-  line-height: 25px;
+  font-size: 20px;
+  line-height: 20px;
 }
 
 .off td {
@@ -55,24 +63,9 @@ table td:first-child {
 }
 
 input#check-map {
-  display: none;
-}
-
-/* label:before에 체크하기 전 상태 CSS */
-input#check-map + label:before {
-  content: "";
   display: inline-block;
-  width: 17px;
-  height: 17px;
-  border: 2px solid #f47c7c;
-  border-radius: 4px;
-}
-
-/* label:before에 체크 된 상태 CSS */
-input#check-map:checked + label:before {
-  background-color: #f47c7c;
-  border-color: #f47c7c;
-  background: url("/public/images/checkbox.png");
+  width: 30px;
+  height: 20px;
 }
 
 .link-map {
@@ -83,6 +76,8 @@ input#check-map:checked + label:before {
 }
 
 .link-map a {
+  color: white;
+  text-decoration: none;
   padding: 10px;
   border-radius: 7px;
 }

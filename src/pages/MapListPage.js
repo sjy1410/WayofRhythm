@@ -7,7 +7,6 @@ import Level from "../components/Level";
 
 export default function MapListPage() {
   const { id } = useParams();
-  console.log(id);
   const mapList = data.maps.filter((map) => map.id === Number(id));
   const levelList = data.levels.filter((level) => level.id === Number(id));
   return (
@@ -22,6 +21,14 @@ export default function MapListPage() {
       </ul>
       <table border="1">
         <tbody>
+          <tr>
+            <td>Clear?</td>
+            <td>Level</td>
+            <td>Artist</td>
+            <td>Song</td>
+            <td>Workshop</td>
+            <td>Youtube</td>
+          </tr>
           {mapList.map((map) => (
             <Level map={map} key={map.id}></Level>
           ))}
