@@ -1,6 +1,6 @@
 #main-background {
   width: 100%;
-  height: 100%;
+  height: 800px;
   position: absolute;
   top: 0;
   left: 0;
@@ -22,7 +22,7 @@
 }
 
 #p-webname {
-  padding-top: 120px;
+  padding-top: 100px;
   font-family: "Fredoka";
   font-weight: 600;
   font-size: 130px;
@@ -42,5 +42,66 @@
   font-weight: 600;
   font-size: 50px;
   color: white;
-  padding-top: 30px;
+  padding-top: 40px;
+}
+
+.div-white-background {
+  position: absolute;
+  top: 800px;
+  background-color: white;
+  width: 100%;
+  height: 600px;
+  z-index: -1;
+}
+
+.div-datapage {
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+#p-datafrom {
+  margin: 0;
+  padding-top: 400px;
+  padding-bottom: 80px;
+  font-family: "NanumGothic";
+  font-weight: bold;
+  font-size: 80px;
+  line-height: 100px;
+  text-align: center;
+}
+
+#btn-data1 {
+  border: none;
+  background-color: white;
+}
+
+#btn-data2 {
+  border: none;
+  background-color: white;
+}
+
+.div-adofaiforum {
+  padding-left: 120px;
+}
+
+.div-adofaigg {
+  padding-left: 80px;
+}
+
+#adofai-forum {
+  width: 500px;
+}
+
+#adofai-gg {
+  width: 320px;
+}
+
+#main-background2 {
+  width: 100%;
+  height: 1200px;
+  position: absolute;
+  top: 1400px;
+  left: 0;
+  z-index: -1;
 }
