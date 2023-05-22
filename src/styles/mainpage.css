@@ -1,16 +1,15 @@
-#main-background {
-  width: 100%;
-  height: 800px;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -1;
-}
-
 .main-header {
   background-color: #192536;
   width: 100%;
   height: 70px;
+}
+
+.main-background {
+  background-image: url("/public/images/mainBackground.png");
+  background-size: cover;
+  background-position: bottom;
+  height: 800px;
+  z-index: -1;
 }
 
 .p-mainpage {
@@ -46,12 +45,7 @@
 }
 
 .div-white-background {
-  position: absolute;
-  top: 800px;
   background-color: white;
-  width: 100%;
-  height: 600px;
-  z-index: -1;
 }
 
 .div-datapage {
@@ -62,7 +56,6 @@
 
 #p-datafrom {
   margin: 0;
-  padding-top: 400px;
   padding-bottom: 80px;
   font-family: "NanumGothic";
   font-weight: bold;
@@ -97,11 +90,13 @@
   width: 320px;
 }
 
-#main-background2 {
+.main-background2 {
+  background-image: url("/public/images/mainBackground2.png");
+  background-position: top;
+  background-size: cover;
   width: 100%;
   height: 1200px;
   position: absolute;
   top: 1400px;
-  left: 0;
   z-index: -1;
 }
