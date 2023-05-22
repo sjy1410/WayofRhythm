@@ -1,13 +1,15 @@
 import { Link } from "react-router-dom";
-
 import "../styles/mapPage.css";
-
 import data from "../db/data.json";
+import Header from "../components/Header";
 
 export default function MapPage() {
   return (
     <>
-      <img src="\images\mapBackground.png" alt="배경" id="map-background" />
+      <div className="map-header">
+        <Header />
+      </div>
+      <img src="\images\mapBackground.png" alt="배경" id="mapbackground" />
       <div className="div-userLevel-explain">
         실력에 맞는 맵풀을 골라보세요!
       </div>

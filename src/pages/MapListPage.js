@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 
 import "../styles/mapListPage.css";
 import Level from "../components/Level";
+import Header from "../components/Header";
 
 export default function MapListPage() {
   const { id } = useParams();
@@ -11,6 +12,7 @@ export default function MapListPage() {
   const levelList = data.levels.filter((level) => level.id === Number(id));
   return (
     <>
+      <Header />
       <img src="\images\mapBackground.png" alt="배경" id="map-background" />
       <ul className="show-level">
         {levelList.map((level) => (

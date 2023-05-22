@@ -22,12 +22,11 @@
 
 table {
   border-collapse: collapse;
-  width: 50%;
+  width: 70%;
   margin: 0 auto;
 }
 
 table td {
-  width: 25%;
   height: 70px;
   border: 3px solid #fff;
   color: white;
@@ -35,8 +34,8 @@ table td {
   font-size: 26px;
 }
 
-table td:first-child {
-  width: 10%;
+#td-youtube {
+  width: 15%;
 }
 
 #btn-workshop {

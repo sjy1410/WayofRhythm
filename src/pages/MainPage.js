@@ -1,8 +1,12 @@
 import "../styles/mainPage.css";
+import Header from "../components/Header";
 
 export default function MainPage() {
   return (
     <>
+      <div className="main-header">
+        <Header />
+      </div>
       <img src=".\images\mainBackground.png" alt="배경" id="main-background" />
       <div className="p-mainpage">
         <p id="p-webname">
