@@ -20,7 +20,7 @@
     },
     {
       "id": 4,
-      "level": "16~19",
+      "level": "17~19",
       "player": "고수",
       "explain": "커스텀 짬이 좀 찼다싶은 사람들에게 추천드리는 맵들입니다. 4키를 사용해야합니다."
     },
@@ -120,7 +120,7 @@
       "artist": "linear ring",
       "name": "enchanted love",
       "workshop": "https://steamcommunity.com/sharedfiles/filedetails/?id=2439575881&searchtext=enchanted+love",
-      "youtube": "https://www.youtube.com/watch?v=Q-B7N20AUIU&ab_channel=PizzaLovers007",
+      "youtube": "https://www.youtube.com/watch?v=FDToGldrX2o&ab_channel=Pharah",
       "isDone": false
     },
     {
@@ -174,7 +174,7 @@
       "artist": "Plum",
       "name": "R",
       "workshop": "https://steamcommunity.com/sharedfiles/filedetails/?id=2301231290&searchtext=R",
-      "youtube": "https://www.youtube.com/watch?v=bEyh9Ws1ihQ&t=134s&ab_channel=%EC%95%84%EB%B2%A8",
+      "youtube": "https://www.youtube.com/watch?v=IGBd-h_1Smc&ab_channel=BWen",
       "isDone": false
     },
     {
@@ -224,11 +224,92 @@
     },
     {
       "id": 3,
+      "level": 15,
+      "artist": "linear ring",
+      "name": "waitingforyou",
+      "workshop": "https://steamcommunity.com/sharedfiles/filedetails/?id=2669826525",
+      "youtube": "https://www.youtube.com/watch?v=9YQBmuXHwQY&ab_channel=EditorAlriC",
+      "isDone": false
+    },
+    {
+      "id": 3,
       "level": 16,
       "artist": "Plum",
       "name": "Crossing Notes",
       "workshop": "https://steamcommunity.com/sharedfiles/filedetails/?id=2633518591&searchtext=crossing+notes",
       "youtube": "https://www.youtube.com/watch?v=zNl18Kvkd50&ab_channel=%EB%A6%AC%EC%9D%84%EC%9D%B4%EC%9D%91%EB%8B%88%EC%9D%80Ryan",
+      "isDone": false
+    },
+    {
+      "id": 3,
+      "level": 16,
+      "artist": "Plum",
+      "name": "Timeline",
+      "workshop": "https://steamcommunity.com/sharedfiles/filedetails/?id=2497250380",
+      "youtube": "https://www.youtube.com/watch?v=eC98J1ykulE&ab_channel=REGEN",
+      "isDone": false
+    },
+    {
+      "id": 4,
+      "level": 17,
+      "artist": "Plum",
+      "name": "Maelstrom",
+      "workshop": "https://steamcommunity.com/sharedfiles/filedetails/?id=2353171448",
+      "youtube": "https://www.youtube.com/watch?v=xGoPVsl3n1c&t=4s&ab_channel=BWen",
+      "isDone": false
+    },
+    {
+      "id": 4,
+      "level": 17,
+      "artist": "Plum",
+      "name": "Melted Snow",
+      "workshop": "https://steamcommunity.com/sharedfiles/filedetails/?id=2801460822&searchtext=melted+snow",
+      "youtube": "https://www.youtube.com/watch?v=9NNNpXum8h4&ab_channel=Seekeradofai",
+      "isDone": false
+    },
+    {
+      "id": 4,
+      "level": 17,
+      "artist": "Plum",
+      "name": "Flow of emotion",
+      "workshop": "https://steamcommunity.com/sharedfiles/filedetails/?id=2370726512&searchtext=flow+of+emotion",
+      "youtube": "https://www.youtube.com/watch?v=Wg-65ndI_1I&ab_channel=%EC%96%BC%EB%B6%88%EC%B6%A4%ED%95%9C%EC%86%90%EC%9E%A5%EC%9D%B8NfK",
+      "isDone": false
+    },
+    {
+      "id": 4,
+      "level": 17,
+      "artist": "linear ring",
+      "name": "Lovelight (Short",
+      "workshop": "https://steamcommunity.com/sharedfiles/filedetails/?id=2615940105&searchtext=lovelight",
+      "youtube": "https://www.youtube.com/watch?v=crYg1sq8JIo&ab_channel=EditorAlriC",
+      "isDone": false
+    },
+    {
+      "id": 4,
+      "level": 18,
+      "artist": "Camelia",
+      "name": "First Town Of This Journey",
+      "workshop": "https://steamcommunity.com/sharedfiles/filedetails/?id=2127686537&searchtext=first+town+of+journey",
+      "youtube": "https://www.youtube.com/watch?v=v6Tr6ij-sJ4&ab_channel=%EC%96%B4%ED%95%84",
+      "isDone": false
+    },
+    {
+      "id": 4,
+      "level": 18,
+      "artist": "Camelia",
+      "name": "Crystallized",
+      "workshop": "https://steamcommunity.com/sharedfiles/filedetails/?id=2757152367&searchtext=crystal",
+      "youtube": "https://www.youtube.com/watch?v=R5Bc11az41g&ab_channel=Synow",
+      "isDone": false
+    },
+    {
+      "id": 4,
+      "level": 19,
+      "artist": "Camelia",
+      "name": "We Could Get More Machinegun Psystyle! (And More Genre Switches)",
+      "workshop": "https://steamcommunity.com/sharedfiles/filedetails/?id=2156020621&searchtext=machinegun",
+      "youtube": "https://www.youtube.com/watch?v=c_jCMw6Pv00&ab_channel=%EC%96%B4%ED%95%84",
       "isDone": false
     }
   ]
