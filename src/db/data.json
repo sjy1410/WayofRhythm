@@ -16,13 +16,13 @@
       "id": 3,
       "level": "13~16",
       "player": "중수",
-      "explain": "왕관섬 스테이지들을 노세이브 엄격판정으로 깬 유저들에게 추천드리는 맵들입니다. 이 시점부터 난이도가 급격하게 오르기 시작합니다."
+      "explain": "왕관섬 스테이지들을 노세이브 엄격판정으로 깬 유저들에게 추천드리는 맵들입니다."
     },
     {
       "id": 4,
       "level": "17~19",
       "player": "고수",
-      "explain": "커스텀 짬이 좀 찼다싶은 사람들에게 추천드리는 맵들입니다. 4키를 사용해야합니다."
+      "explain": "커스텀 짬이 좀 찼다싶은 사람들에게 추천드리는 맵들입니다."
     },
     {
       "id": 5,
@@ -31,7 +31,6 @@
       "explain": "4키기반 타법을 요구하고 8키를 써야하는 맵들입니다."
     }
   ],
-
   "maps": [
     {
       "id": 1,
@@ -305,11 +304,56 @@
     },
     {
       "id": 4,
+      "level": 18,
+      "artist": "HyuN",
+      "name": "Tripple Cross",
+      "workshop": "https://steamcommunity.com/sharedfiles/filedetails/?id=2125733701&searchtext=tripple+cross",
+      "youtube": "https://www.youtube.com/watch?v=FyWm8RS_ZC0&ab_channel=%ED%97%A4%EB%A5%B4%EB%8B%88",
+      "isDone": false
+    },
+    {
+      "id": 4,
+      "level": 18,
+      "artist": "Plum",
+      "name": "Tempest",
+      "workshop": "https://steamcommunity.com/sharedfiles/filedetails/?id=2129051959&searchtext=tempest",
+      "youtube": "https://www.youtube.com/watch?v=ZzQWvHQ180c&t=10s&ab_channel=Nephrolepis",
+      "isDone": false
+    },
+    {
+      "id": 4,
+      "level": "18+",
+      "artist": "meganeko",
+      "name": "Feral",
+      "workshop": "https://steamcommunity.com/sharedfiles/filedetails/?id=2287691940&searchtext=feral",
+      "youtube": "https://www.youtube.com/watch?v=xv8Fv3fQndg&ab_channel=Ma6icCu8e",
+      "isDone": false
+    },
+    {
+      "id": 4,
       "level": 19,
       "artist": "Camelia",
       "name": "We Could Get More Machinegun Psystyle! (And More Genre Switches)",
       "workshop": "https://steamcommunity.com/sharedfiles/filedetails/?id=2156020621&searchtext=machinegun",
       "youtube": "https://www.youtube.com/watch?v=c_jCMw6Pv00&ab_channel=%EC%96%B4%ED%95%84",
+      "isDone": false
+    },
+    {
+      "id": 4,
+      "level": 19,
+      "artist": "Akira Complex",
+      "name": "Hypersynthetic",
+      "workshop": "https://steamcommunity.com/sharedfiles/filedetails/?id=2341985132&searchtext=Hypersynthetic",
+      "youtube": "https://www.youtube.com/watch?v=UIMgcwKe6c8&ab_channel=%ED%86%A0%ED%8A%B8",
+      "isDone": false
+    },
+    {
+      "id": 4,
+      "level": 19,
+      "artist": "t+pazolite",
+      "name": "CROSSING DELTA",
+      "workshop": "https://steamcommunity.com/sharedfiles/filedetails/?id=2464669775&searchtext=crossing+delta",
+      "youtube": "https://www.youtube.com/watch?v=TAIzB0C_KdA&ab_channel=%ED%86%A0%EB%81%BC%EB%A1%9C%EB%B4%87",
       "isDone": false
     }
   ]
