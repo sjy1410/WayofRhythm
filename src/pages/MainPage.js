@@ -18,15 +18,17 @@ export default function MainPage() {
   }, []);
   return (
     <>
-      <div className="main-header">
-        <Header />
+      <div className="main-background">
+        <div className="main-header">
+          <Header />
+        </div>
+        <MainName />
+        <MainData scrollPosition={scrollPosition} />
+        <img src=".\images\line.png" alt="구분선1" id="line1" />
+        <MainMake scrollPosition={scrollPosition} />
+        <img src=".\images\line.png" alt="구분선1" id="line2" />
+        <MainLevel scrollPosition={scrollPosition} />
       </div>
-      <MainName />
-      <MainData scrollPosition={scrollPosition} />
-      <img src=".\images\line.png" alt="구분선1" id="line1" />
-      <MainMake scrollPosition={scrollPosition} />
-      <img src=".\images\line.png" alt="구분선1" id="line2" />
-      <MainLevel scrollPosition={scrollPosition} />
     </>
   );
 }

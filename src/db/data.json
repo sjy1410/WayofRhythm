@@ -188,15 +188,6 @@
     },
     {
       "id": 3,
-      "level": 13,
-      "artist": "ああああ",
-      "name": "ほんの小さな大冒険",
-      "workshop": "https://steamcommunity.com/sharedfiles/filedetails/?id=2237655694&searchtext=ああああ+-+ほんの小さな大冒険",
-      "youtube": "https://www.youtube.com/watch?v=9dDoOsQHQYc&ab_channel=%EB%B3%B4%EB%A6%AC",
-      "isDone": false
-    },
-    {
-      "id": 3,
       "level": 14,
       "artist": "E0ri4",
       "name": "Rainy Gate (Simple)",
@@ -216,15 +207,6 @@
     {
       "id": 3,
       "level": 14,
-      "artist": "Plum",
-      "name": "R 8bit",
-      "workshop": "https://steamcommunity.com/sharedfiles/filedetails/?id=2397649836&searchtext=R+8bit",
-      "youtube": "https://www.youtube.com/watch?v=zvDiTUjjY1s&ab_channel=Nephrolepis%5B%EB%84%A4%ED%94%84%EB%A1%9C%5D",
-      "isDone": false
-    },
-    {
-      "id": 3,
-      "level": 14,
       "artist": "Author wind",
       "name": "After school",
       "workshop": "https://steamcommunity.com/sharedfiles/filedetails/?id=2301240293&searchtext=after+school",
@@ -238,15 +220,6 @@
       "name": "Mad Piano Party",
       "workshop": "https://steamcommunity.com/sharedfiles/filedetails/?id=2124702244&searchtext=mad+piano+party",
       "youtube": "https://www.youtube.com/watch?v=o8EInwhzc4s&t=82s&ab_channel=pixelo3o",
-      "isDone": false
-    },
-    {
-      "id": 3,
-      "level": 15,
-      "artist": "Plum",
-      "name": "Mad Piano Party II",
-      "workshop": "https://steamcommunity.com/sharedfiles/filedetails/?id=2124096282&searchtext=mad+piano+party+2",
-      "youtube": "https://www.youtube.com/watch?v=JW-jyFxj_Ek&ab_channel=%EB%8B%88%EC%B9%98%ED%8E%98Nichipe",
       "isDone": false
     },
     {

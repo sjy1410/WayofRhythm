@@ -1,16 +1,15 @@
-#map-background {
-  width: 100%;
-  height: 1200px;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -1;
+.mapBackground2 {
+  background-image: url(/public/images/mapBackground.png);
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .show-level {
   text-align: center;
   font-family: "NanumGothic";
-  padding-top: 120px;
+  padding-top: 70px;
   padding-bottom: 40px;
   color: white;
   list-style: none;
@@ -18,6 +17,7 @@
   font-weight: 700;
   font-family: "Gafata";
   margin: 0;
+  padding-left: 0;
 }
 
 table {
@@ -69,6 +69,7 @@ input#check-map {
 
 .link-map {
   padding-top: 50px;
+  padding-bottom: 50px;
   text-align: center;
   font-family: "Nanum Gothic";
   font-size: 30px;

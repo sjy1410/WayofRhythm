@@ -23,7 +23,7 @@ export default function Header() {
         <ul className="navbar-icon">
           <li>
             <button onClick={() => window.open(url)}>
-              <img src="../images/githubicon.svg" alt="깃헙아이콘" />
+              <img src="/../images/githubicon.svg" alt="깃헙아이콘" />
             </button>
           </li>
         </ul>
