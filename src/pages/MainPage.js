@@ -5,6 +5,8 @@ import MainData from "../components/mainPage/MainData";
 import MainMake from "../components/mainPage/MainMake";
 import MainLevel from "../components/mainPage/MainLevel";
 
+import { ReactComponent as Line } from "../images/line.svg";
+
 import { useEffect, useState } from "react";
 
 export default function MainPage() {
@@ -24,9 +26,13 @@ export default function MainPage() {
         </div>
         <MainName />
         <MainData scrollPosition={scrollPosition} />
-        <img src=".\images\line.svg" alt="구분선1" id="line1" />
+        <div className="line1">
+          <Line />
+        </div>
         <MainMake scrollPosition={scrollPosition} />
-        <img src=".\images\line.svg" alt="구분선2" id="line2" />
+        <div className="line2">
+          <Line />
+        </div>
         <MainLevel scrollPosition={scrollPosition} />
       </div>
     </>

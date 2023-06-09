@@ -52,7 +52,7 @@
   }
 }
 
-#dataLine {
+.dataLine {
   position: absolute;
   top: 177%;
   left: 50%;

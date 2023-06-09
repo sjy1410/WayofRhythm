@@ -12,14 +12,14 @@
   background-position: bottom;
 }
 
-#line1 {
+.line1 {
   position: absolute;
   top: 210%;
   left: 50%;
   transform: translate3d(-50%, -50%, 0);
 }
 
-#line2 {
+.line2 {
   position: absolute;
   top: 1980px;
   left: 50%;

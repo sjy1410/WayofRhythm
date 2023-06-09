@@ -1,5 +1,9 @@
 import Header from "../components/Header";
 import "../styles/guidePage.css";
+import Content1 from "../svg/guidePage/Content1";
+import Content2 from "../svg/guidePage/Content2";
+import Rabbits from "../svg/guidePage/Rabbits";
+import ToContent from "../svg/guidePage/ToContent";
 
 export default function GuidePage() {
   console.log(window.scrollY);
@@ -9,39 +13,29 @@ export default function GuidePage() {
         <Header />
       </div>
       <div className="guide-background">
-        <div>
-          <img src=".\images\rabbits.svg" alt="토끼들" id="rabbits" />
+        <div className="rabbits">
+          <Rabbits />
         </div>
         <div>
-          <div>
-            <img
-              src=".\images\content1.svg"
-              alt="목차1"
-              id="content1"
-              onClick={() => window.scrollTo(0, 850)}
-            />
+          <div className="content1" onClick={() => window.scrollTo(0, 850)}>
+            <Content1 />
           </div>
-          <div>
-            <img
-              src=".\images\content2.svg"
-              alt="목차1"
-              id="content2"
-              onClick={() => window.scrollTo(0, 1670)}
-            />
+          <div className="content2" onClick={() => window.scrollTo(0, 1670)}>
+            <Content2 />
           </div>
         </div>
       </div>
-      <img
-        src=".\images\topBtn.svg"
-        alt="목차로"
-        id="topBtn"
+      <div
         onClick={() => {
           window.scrollTo({
             top: 0,
             behavior: "smooth",
           });
         }}
-      />
+        className="to-content"
+      >
+        <ToContent />
+      </div>
     </>
   );
 }

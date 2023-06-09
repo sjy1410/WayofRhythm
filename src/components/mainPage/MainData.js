@@ -1,5 +1,9 @@
 import "../../styles/mainPage/mainData.css";
 
+import { ReactComponent as ADOFAIgg } from "../../images/ADOFAIgg.svg";
+import { ReactComponent as DataLine } from "../../images/dataLine.svg";
+import { ReactComponent as AdofaiForum } from "../../images/adofaiForum.svg";
+
 export default function MainData(props) {
   const data1 =
     "https://docs.google.com/spreadsheets/d/1PzLHfWmVWJHrBGnNSsLTsdH0ibdk0hB4MpKHET1nkpU/";
@@ -17,19 +21,17 @@ export default function MainData(props) {
         className={scrollPosition < 800 ? "btn-data1-hidden" : "btn-data1"}
         onClick={() => window.open(data1)}
       >
-        <img
-          src=".\images\adofaiForum.svg"
-          alt="비공식포럼"
-          id="img-data1"
-        ></img>
+        <AdofaiForum />
       </button>
-      <img src=".\images\dataLine.svg" id="dataLine" alt="구분선" />
+      <div className="dataLine">
+        <DataLine />
+      </div>
       <button
         id="btn-data2"
         className={scrollPosition < 800 ? "btn-data2-hidden" : "btn-data2"}
         onClick={() => window.open(data2)}
       >
-        <img src=".\images\ADOFAIgg.svg" alt="ADOFAI.gg" id="img-data2" />
+        <ADOFAIgg />
       </button>
     </>
   );

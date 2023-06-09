@@ -11,22 +11,22 @@
   display: flex;
 }
 
-#rabbits {
-  padding-top: 75%;
-  padding-left: 10%;
+.rabbits {
+  padding-top: 13%;
+  padding-left: 2%;
 }
 
-#content1 {
+.content1 {
   padding-top: 62%;
   padding-left: 20%;
 }
 
-#content2 {
+.content2 {
   padding-top: 24%;
   padding-left: 20%;
 }
 
-#topBtn {
+.to-content {
   position: fixed;
   bottom: 5%;
   right: 4%;

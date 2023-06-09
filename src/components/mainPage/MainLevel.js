@@ -1,5 +1,10 @@
 import "../../styles/mainPage/mainLevel.css";
 
+import { ReactComponent as Arrows } from "../../images/arrows.svg";
+import { ReactComponent as Official } from "../../images/official.svg";
+import { ReactComponent as Crown } from "../../images/crown.svg";
+import { ReactComponent as Custom } from "../../images/custom.svg";
+
 export default function MainLevel(props) {
   const { scrollPosition } = props;
   return (
@@ -13,20 +18,20 @@ export default function MainLevel(props) {
           scrollPosition < 1900 ? "official-icon-hidden" : "official-icon"
         }
       >
-        <img src=".\images\official.svg" alt="공식맵" />
+        <Official />
       </div>
       <div
         className={scrollPosition < 1900 ? "crown-icon-hidden" : "crown-icon"}
       >
-        <img src=".\images\crown.svg" alt="왕관섬" />
+        <Crown />
       </div>
       <div
         className={scrollPosition < 1900 ? "custom-icon-hidden" : "custom-icon"}
       >
-        <img src=".\images\custom.svg" alt="커스텀" />
+        <Custom />
       </div>
       <div className="arrows">
-        <img src=".\images\arrows.svg" alt="화살표들" />
+        <Arrows />
       </div>
       <div className="whitespace" />
     </>

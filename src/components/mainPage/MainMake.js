@@ -1,14 +1,17 @@
 import "../../styles/mainPage/mainMake.css";
 
+import { ReactComponent as CompassIn } from "../../images/compass-in.svg";
+import { ReactComponent as Compass } from "../../images/compass.svg";
+
 export default function MainMake(props) {
   const { scrollPosition } = props;
   return (
     <>
       <div className="compass">
-        <img src=".\images\compass.png" alt="나침반" id="compass" />
+        <Compass />
       </div>
       <div className="compass-in">
-        <img src=".\images\compass-in.svg" alt="나침반" id="compass-in" />
+        <CompassIn />
       </div>
       <p id="p-main2">제작의도</p>
       <p

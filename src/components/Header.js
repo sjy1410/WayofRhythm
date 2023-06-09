@@ -1,5 +1,7 @@
 import "../styles/header.css";
 import { Link } from "react-router-dom";
+import Logo from "../svg/header/Logo";
+import Githubicon from "../svg/header/Githubicon";
 
 export default function Header() {
   const url = "https://github.com/sjy1410/WayofRythm";
@@ -7,23 +9,29 @@ export default function Header() {
   return (
     <>
       <nav class="navbar">
-        <div className="navbar-logo">
-          <Link to="/">
-            <img src="\images\logo.svg" alt="로고" />
-          </Link>
-        </div>
+        <ul className="navbar-logo">
+          <li>
+            <Link to="/" id="name">
+              <Logo />
+            </Link>
+          </li>
+        </ul>
         <ul className="navbar-menu">
           <li>
-            <Link to="/map">맵 추천</Link>
+            <Link to="/map" id="map">
+              맵 추천
+            </Link>
           </li>
           <li>
-            <Link to="/guide">가이드</Link>
+            <Link to="/guide" id="guide">
+              가이드
+            </Link>
           </li>
         </ul>
         <ul className="navbar-icon">
           <li>
             <button onClick={() => window.open(url)}>
-              <img src="/../images/githubicon.svg" alt="깃헙아이콘" />
+              <Githubicon />
             </button>
           </li>
         </ul>
