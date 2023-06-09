@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.css";
 
 import MainPage from "./pages/MainPage";
@@ -10,14 +10,14 @@ import GuidePage from "./pages/GuidePage";
 export default function App() {
   return (
     <div className="App">
-      <Router>
+      <HashRouter>
         <Routes>
           <Route path="/" element={<MainPage />} />
           <Route path="/map" element={<MapPage />} />
           <Route path="/map/id/:id" element={<MapListPage />} />
           <Route path="/guide" element={<GuidePage />} />
         </Routes>
-      </Router>
+      </HashRouter>
     </div>
   );
 }
