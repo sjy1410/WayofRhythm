@@ -18,8 +18,8 @@ export default function Level({ map }) {
       <td>{map.artist} </td>
       <td>{map.name}</td>
       <td id="td-workshop">
-        <button id="btn-workshop" onClick={() => window.open(map.workshop)}>
-          <FontAwesomeIcon icon={faSteam} />
+        <button onClick={() => window.open(map.workshop)} id="btn-workshop">
+          <FontAwesomeIcon icon={faSteam} id="icon-workshop" />
         </button>
       </td>
       <td id="td-youtube">

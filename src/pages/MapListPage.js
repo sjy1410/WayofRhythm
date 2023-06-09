@@ -26,7 +26,7 @@ export default function MapListPage() {
         <table border="1">
           <tbody>
             <tr>
-              <td>Clear?</td>
+              <td>Clear</td>
               <td>Level</td>
               <td>Artist</td>
               <td>Song</td>
