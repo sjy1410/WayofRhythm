@@ -26,7 +26,7 @@ export default function MainPage() {
         <MainData scrollPosition={scrollPosition} />
         <img src=".\images\line.svg" alt="구분선1" id="line1" />
         <MainMake scrollPosition={scrollPosition} />
-        <img src=".\images\line.svg" alt="구분선1" id="line2" />
+        <img src=".\images\line.svg" alt="구분선2" id="line2" />
         <MainLevel scrollPosition={scrollPosition} />
       </div>
     </>
