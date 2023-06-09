@@ -8,7 +8,7 @@ export default function MainMake(props) {
         <img src=".\images\compass.png" alt="나침반" id="compass" />
       </div>
       <div className="compass-in">
-        <img src=".\images\compass-in.png" alt="나침반" id="compass-in" />
+        <img src=".\images\compass-in.svg" alt="나침반" id="compass-in" />
       </div>
       <p id="p-main2">제작의도</p>
       <p

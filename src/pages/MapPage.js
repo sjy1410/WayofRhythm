@@ -13,16 +13,18 @@ export default function MapPage() {
         <div className="div-userLevel-explain">
           실력에 맞는 맵풀을 골라보세요!
         </div>
-        <ul className="user-level">
-          {data.levels.map((level) => (
-            <li key={level.id}>
-              <Link to={`id/${level.id}`} id={`a${level.id}`}>
-                {level.player}
-              </Link>
-              <div>{level.explain}</div>
-            </li>
-          ))}
-        </ul>
+        <div>
+          <ul className="user-level">
+            {data.levels.map((level) => (
+              <li key={level.id}>
+                <Link to={`id/${level.id}`} id={`a${level.id}`}>
+                  {level.player}
+                </Link>
+                <div>{level.explain}</div>
+              </li>
+            ))}
+          </ul>
+        </div>
       </div>
     </>
   );

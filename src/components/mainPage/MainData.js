@@ -18,18 +18,18 @@ export default function MainData(props) {
         onClick={() => window.open(data1)}
       >
         <img
-          src=".\images\adofaiForum.png"
+          src=".\images\adofaiForum.svg"
           alt="비공식포럼"
           id="img-data1"
         ></img>
       </button>
-      <img src=".\images\dataLine.png" id="dataLine" alt="구분선" />
+      <img src=".\images\dataLine.svg" id="dataLine" alt="구분선" />
       <button
         id="btn-data2"
         className={scrollPosition < 800 ? "btn-data2-hidden" : "btn-data2"}
         onClick={() => window.open(data2)}
       >
-        <img src=".\images\ADOFAIgg.png" alt="ADOFAI.gg" id="img-data2" />
+        <img src=".\images\ADOFAIgg.svg" alt="ADOFAI.gg" id="img-data2" />
       </button>
     </>
   );

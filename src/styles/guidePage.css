@@ -1,3 +1,33 @@
 .guide-header {
   background-color: #c59494;
 }
+
+.guide-background {
+  background-image: url(/public/images/guideBackground.svg);
+  height: 3300px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+}
+
+#rabbits {
+  padding-top: 75%;
+  padding-left: 10%;
+}
+
+#content1 {
+  padding-top: 62%;
+  padding-left: 20%;
+}
+
+#content2 {
+  padding-top: 24%;
+  padding-left: 20%;
+}
+
+#topBtn {
+  position: fixed;
+  bottom: 5%;
+  right: 4%;
+}
