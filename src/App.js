@@ -10,14 +10,12 @@ import GuidePage from "./pages/GuidePage";
 export default function App() {
   return (
     <div className="App">
-      <Router>
-        <Routes>
-          <Route path="/" element={<MainPage />} />
-          <Route path="/map" element={<MapPage />} />
-          <Route path="/map/id/:id" element={<MapListPage />} />
-          <Route path="/guide" element={<GuidePage />} />
-        </Routes>
-      </Router>
+      <Routes>
+        <Route path="/" element={<MainPage />} />
+        <Route path="/map" element={<MapPage />} />
+        <Route path="/map/id/:id" element={<MapListPage />} />
+        <Route path="/guide" element={<GuidePage />} />
+      </Routes>
     </div>
   );
 }
