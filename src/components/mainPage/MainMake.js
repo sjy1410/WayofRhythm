@@ -1,7 +1,7 @@
 import "../../styles/mainPage/mainMake.css";
 
-import { ReactComponent as CompassIn } from "../../images/compass-in.svg";
-import { ReactComponent as Compass } from "../../images/compass.svg";
+import { ReactComponent as CompassIn } from "../../images/mainPage/compass-in.svg";
+import { ReactComponent as Compass } from "../../images/mainPage/compass.svg";
 
 export default function MainMake(props) {
   const { scrollPosition } = props;

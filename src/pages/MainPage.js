@@ -5,7 +5,7 @@ import MainData from "../components/mainPage/MainData";
 import MainMake from "../components/mainPage/MainMake";
 import MainLevel from "../components/mainPage/MainLevel";
 
-import { ReactComponent as Line } from "../images/line.svg";
+import { ReactComponent as Line } from "../images/mainPage/line.svg";
 
 import { useEffect, useState } from "react";
 

@@ -1,9 +1,9 @@
 import "../../styles/mainPage/mainLevel.css";
 
-import { ReactComponent as Arrows } from "../../images/arrows.svg";
-import { ReactComponent as Official } from "../../images/official.svg";
-import { ReactComponent as Crown } from "../../images/crown.svg";
-import { ReactComponent as Custom } from "../../images/custom.svg";
+import { ReactComponent as Arrows } from "../../images/mainPage/arrows.svg";
+import { ReactComponent as Official } from "../../images/mainPage/official.svg";
+import { ReactComponent as Crown } from "../../images/mainPage/crown.svg";
+import { ReactComponent as Custom } from "../../images/mainPage/custom.svg";
 
 export default function MainLevel(props) {
   const { scrollPosition } = props;

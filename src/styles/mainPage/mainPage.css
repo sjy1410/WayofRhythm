@@ -5,7 +5,7 @@
 }
 
 .main-background {
-  background-image: url(/public/images/mainBackground.svg);
+  background-image: url(/public/backgrounds/mainBackground.svg);
   height: 920px;
   background-size: cover;
   background-repeat: no-repeat;

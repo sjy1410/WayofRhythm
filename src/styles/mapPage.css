@@ -5,7 +5,7 @@
 }
 
 .mapBackground1 {
-  background-image: url(/public/images/mapBackground.svg);
+  background-image: url(/public/backgrounds/mapBackground.svg);
   height: 900px;
   background-size: cover;
   background-repeat: no-repeat;

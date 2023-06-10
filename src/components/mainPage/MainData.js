@@ -1,8 +1,8 @@
 import "../../styles/mainPage/mainData.css";
 
-import { ReactComponent as ADOFAIgg } from "../../images/ADOFAIgg.svg";
-import { ReactComponent as DataLine } from "../../images/dataLine.svg";
-import { ReactComponent as AdofaiForum } from "../../images/adofaiForum.svg";
+import { ReactComponent as ADOFAIgg } from "../../images/mainPage/ADOFAIgg.svg";
+import { ReactComponent as DataLine } from "../../images/mainPage/dataLine.svg";
+import { ReactComponent as AdofaiForum } from "../../images/mainPage/adofaiForum.svg";
 
 export default function MainData(props) {
   const data1 =

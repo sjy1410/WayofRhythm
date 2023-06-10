@@ -2,9 +2,9 @@
   background-color: #c59494;
 }
 
-.guide-background {
-  background-image: url(/public/images/guideBackground.svg);
-  height: 3300px;
+.guide-background1 {
+  background-image: url(/public/backgrounds/guideBackground1.svg);
+  height: 720px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -24,6 +24,15 @@
 .content2 {
   padding-top: 24%;
   padding-left: 20%;
+}
+
+.guide-background2 {
+  background-image: url(/public/backgrounds/guideBackground2.svg);
+  height: 2620px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  display: flex;
 }
 
 .to-content {

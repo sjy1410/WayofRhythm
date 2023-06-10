@@ -1,7 +1,7 @@
 import "../styles/header.css";
 import { Link } from "react-router-dom";
-import Logo from "../svg/header/Logo";
-import Githubicon from "../svg/header/Githubicon";
+import { ReactComponent as Githubicon } from "../images/header/githubicon.svg";
+import { ReactComponent as Logo } from "../images/header/logo.svg";
 
 export default function Header() {
   const url = "https://github.com/sjy1410/WayofRythm";
