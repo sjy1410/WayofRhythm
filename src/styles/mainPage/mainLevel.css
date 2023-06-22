@@ -5,11 +5,11 @@
   transform: translate3d(-50%, -50%, 0);
 
   font-family: "NanumGothic";
-  font-size: 48px;
+  font-size: 3rem;
 }
 
 #p-main3-1-bold {
-  font-size: 58px;
+  font-size: 3.625rem;
   font-weight: bold;
   color: #36ad57;
   margin: 20px 0px;
@@ -23,7 +23,7 @@
 
   margin: 0;
   font-family: "NanumGothic";
-  font-size: 48px;
+  font-size: 3rem;
 }
 
 .arrows {

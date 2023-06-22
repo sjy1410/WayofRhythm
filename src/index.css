@@ -1,9 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Fredoka&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Gafata&display=swap");
+@font-face {
+  font-family: "Fredoka";
+  src: url("./fonts/Fredoka-Regular.ttf");
+}
 
-/*
-font-family: 'Nanum Gothic';
-font-family: 'Fredoka';
-font-family: 'Gafata';
-*/
+@font-face {
+  font-family: "Nanum Gothic";
+  src: url("./fonts/NanumGothic-Regular.ttf");
+}

@@ -35,15 +35,14 @@
 }
 
 #p-webexplain {
-  font-family: "NanumGothic";
-  font-weight: 300;
-  font-size: 3.2rem;
+  font-family: "Nanum Gothic";
+  font-size: 3rem;
   color: white;
 
   position: absolute;
   left: 50%;
   transform: translate3d(-50%, -50%, 0);
-  top: 39%;
+  top: 41%;
   animation: webexplain 1s ease-in-out 0.8s forwards;
   opacity: 0;
 }
@@ -54,7 +53,7 @@
     opacity: 0;
   }
   to {
-    top: 39%;
+    top: 41%;
     opacity: 1;
   }
 }

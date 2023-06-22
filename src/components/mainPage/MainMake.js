@@ -13,6 +13,7 @@ export default function MainMake(props) {
       <div className="compass-in">
         <CompassIn />
       </div>
+
       <p id="p-main2">제작의도</p>
       <p
         id="p-make"
